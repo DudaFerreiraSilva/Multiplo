@@ -15,18 +15,19 @@ resto = n1 % n2;
 if (resto == 0)
 { 
     Console.ForegroundColor = ConsoleColor.Green;
-    Console.WriteLine($"{n1} é múltiplo de {n2}");
+    Console.WriteLine($"\n{n1} é múltiplo de {n2}");
     Console.ResetColor();
 }
 
 else 
 {
     Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine($"{n1} não é múltiplo de {n2}");
+    Console.WriteLine($"\n{n1} não é múltiplo de {n2}");
     Console.ResetColor();
 }
-
-
+    Console.ForegroundColor = ConsoleColor.DarkCyan; 
+    Console.WriteLine("\nObrigado por utilizar o programa!");
+    Console.ResetColor();
 
 
 
